@@ -8,6 +8,10 @@
   </head>
   <body>
     <div id="app"></div>
+    <div id="editor">
+      <textarea :value="input" @input="update"></textarea>
+      <div v-html="compiledMarkdown"></div>
+    </div>
     <script src="plugins/mod/mod.js"></script>
     <!--SCRIPT_PLACEHOLDER-->
     <!--RESOURCEMAP_PLACEHOLDER-->

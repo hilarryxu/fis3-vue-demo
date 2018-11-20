@@ -3,7 +3,9 @@ fis.set('project.files', ['src/**']);
 fis.hook('commonjs', {
     baseUrl: 'src',
     paths: {
-        'vue': '/node_modules/vue/dist/vue.js'
+        'vue': '/node_modules/vue/dist/vue.js',
+        'lodash': '/node_modules/lodash/lodash.js',
+        'marked': '/node_modules/marked/lib/marked.js'
     }
 });
 

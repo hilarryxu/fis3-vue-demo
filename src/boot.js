@@ -1,7 +1,9 @@
 var Vue = require('vue');
+var _ = require('lodash');
+var marked = require('marked');
 
 var app = new Vue({
-  el: '#app',
+  el: '#editor',
   data: {
     input: '# hello'
   },
