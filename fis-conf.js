@@ -27,7 +27,7 @@ fis.match('/src/(**)', {
 })
 .match('/(node_modules/**.js)', {
   isMod: true,
-  useSameNameRequire: false
+  ignoreDependencies: true
 })
 .match('/node_modules/**.map', {
   release: false
