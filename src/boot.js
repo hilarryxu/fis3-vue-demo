@@ -4,6 +4,7 @@ var marked = require('marked');
 
 var app = new Vue({
   el: '#editor',
+  template: __inline('app.html'),
   data: {
     input: '# hello'
   },
