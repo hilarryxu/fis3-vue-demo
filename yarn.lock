@@ -35,6 +35,11 @@ brace-expansion@^1.1.7:
     balanced-match "^1.0.0"
     concat-map "0.0.1"
 
+coffee-script@1.6.3:
+  version "1.6.3"
+  resolved "http://registry.npm.taobao.org/coffee-script/download/coffee-script-1.6.3.tgz#6355d32cf1b04cdff6b484e5e711782b2f0c39be"
+  integrity sha1-Y1XTLPGwTN/2tITl5xF4Ky8MOb4=
+
 commander@^2.5.0:
   version "2.19.0"
   resolved "http://registry.npm.taobao.org/commander/download/commander-2.19.0.tgz#f6198aa84e5b83c46054b94ddedbfed5ee9ff12a"
@@ -183,6 +188,13 @@ event-emitter@~0.3.5:
   dependencies:
     d "1"
     es5-ext "~0.10.14"
+
+fis-parser-coffee-script@^0.0.2:
+  version "0.0.2"
+  resolved "http://registry.npm.taobao.org/fis-parser-coffee-script/download/fis-parser-coffee-script-0.0.2.tgz#a9ffe6712885e4e72b1350e45e9d455576ecae97"
+  integrity sha1-qf/mcSiF5OcrE1DkXp1FVXbsrpc=
+  dependencies:
+    coffee-script "1.6.3"
 
 fis3-hook-commonjs@^0.1.31:
   version "0.1.31"

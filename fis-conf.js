@@ -32,6 +32,11 @@ fis.match('/src/(**)', {
 .match('/node_modules/**.map', {
   release: false
 })
+.match('/src/**.coffee', {
+  isMod: true,
+  parser: fis.plugin('coffee-script'),
+  rExt: '.js'
+})
 .match('::package', {
     postpackager: fis.plugin('loader', {
         resourceType: 'mod',

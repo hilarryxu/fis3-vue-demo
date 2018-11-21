@@ -15,6 +15,7 @@
     "fis3-postpackager-loader": "^2.1.11"
   },
   "dependencies": {
+    "fis-parser-coffee-script": "^0.0.2",
     "lodash": "^4.17.11",
     "marked": "^0.5.2",
     "vue": "^2.5.17"
