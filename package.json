@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "fis3 release",
-    "prod": "fis3 release prod"
+    "build": "fis3 release prod"
   },
   "devDependencies": {
     "fis3-hook-commonjs": "^0.1.31",
